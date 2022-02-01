@@ -17,7 +17,7 @@ nav {
   background-color: yellow;
   color: rgb(27, 120, 201);
   font-size: large;
-  font-weight: bold;
+  font-weight: 550;
   height: auto;
 }
 
@@ -43,9 +43,14 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-
+  transition: 300ms;
 }
 
+nav ul li a:hover{
+  font-size: 1.4rem;
+  font-weight: 700;
+  transition: 300ms; 
+}
 nav ul li:visited {
   text-decoration: none;
 }
