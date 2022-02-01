@@ -78,3 +78,13 @@ LinkFree is licensed under the MIT License - see the [`LICENSE`](LICENSE) file f
 ## 🙏 Support
 
 This project needs a ⭐️ from you. Don't forget to leave a star ⭐️
+
+## 💪 Thanks to all Contributors
+
+[![Contributors](https://contrib.rocks/image?repo= Susmita-Dey/Contribute-To-This-Project-First)](https://github.com/Susmita-Dey/Contribute-To-This-Project-First
+/graphs/contributors)
+
+<hr>
+<p align="center">
+Built with ❤️ in India 🇮🇳 
+</p>
