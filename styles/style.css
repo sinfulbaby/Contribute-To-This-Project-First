@@ -37,7 +37,7 @@ nav ul {
   flex-direction: row;
   align-content: center;
   justify-content: flex-end;
-  width: 100%;
+  width: 90%;
 }
 
 nav ul li {
@@ -55,9 +55,10 @@ nav ul li a {
 }
 
 nav ul li a:hover{
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 700;
   transition: 300ms; 
+  color: #ff0000;
 }
 nav ul li:visited {
   text-decoration: none;
