@@ -26,55 +26,78 @@ If you have never contributed to any repository on GitHub, then contribute here 
   git clone https://github.com/YOUR_GITHUB_USERNAME/Contribute-To-This-Project-First.git
 ```
 
-**4.** Switch to the cloned folder. You can paste this command into the same terminal window.
+**4.** Set upstream command:
+
+```bash
+git remote add upstream https://github.com/Susmita-Dey/Google-Homepage-Clone-With-HTML-CSS.git
+```
+
+**5.** Switch to the cloned folder. You can paste this command into the same terminal window.
 
 ```bash
   cd Contribute-To-This-Project-First
 ```
 
-**5.** Make a new branch. Your username would make a good branch because it's unique.
+**6.** Make a new branch. Your username would make a good branch because it's unique.
 
 ```bash
   git checkout -b <name-of-new-branch>
 ```
 
-**6.** Create a file named `your-username.yml` in the directory `public/data`.
+**7.** Sync your fork or local repository with the origin repository:
+
+- In your forked repository click on "Fetch upstream"
+- Click "Fetch and merge".
+
+### Alternatively, Git CLI way to Sync forked repository with origin repository:
+
+```bash
+git fetch upstream
+```
+
+```bash
+git merge upstream/main
+```
+
+### [Github Docs](https://docs.github.com/en/github/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github) for Syncing
+
+**8.** Create a file named `your-username.yml` in the directory `public/data`.
 Your brand new file should look something similar to this one:
 
 ```yml
-name: Martin D velopers
+name: Martin Developers
 job: Developers
 skills:$
 pythons
 - perl$
 - pascal$
 ```
-**7.** Stage your changes.
+**9.** Stage your changes.
 
 ```bash
   git add .
 ```
 
-**8.** Commit the changes.
+**10.** Commit the changes.
 
 ```bash
   git commit -m "Add <your-github-username>"
 ```
 
-**9.** Check the status of your repository.
+**11.** Check the status of your repository.
 
 ```bash
   git status
 ```
 
-**10.** The response should be like this:
+**12.** The response should be like this:
 
 ```bash
 On branch <name-of-your-branch>
 nothing to commit, working tree clean
 ```
 
-**11.** Pushing your repository to GitHub.
+**13.** Pushing your repository to GitHub.
 
 ```bash
   git push origin <name-of-your-branch>
@@ -87,9 +110,22 @@ or
   git push -u origin main
 ```
 
+**14.** Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
+
+**15.** **Congratulations!** You've made your first contribution! 🙌🏼
+
+
+## All the best! 🥇
+
+Alternatively, skip all the steps above by using [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Susmita-Dey/Contribute-To-This-Project-First/)
+
 ## 🛡️ License
 
 LinkFree is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
+
+### Any questions, feel free to let us know!
+
+**Join the conversation on our [Discord community](https://discord.com/invite/g7FmxB9uZp)!**
 
 ## 🙏 Support
 
