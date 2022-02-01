@@ -22,15 +22,15 @@ nav {
 }
 
 nav li img {
-  width: 40%;
-  height: auto;
+  width: 10vmin;
+  height: 10vmin;
+  border-radius: 50%;
 }
 
 nav ul {
   display: flex;
   flex-direction: row;
-  /* align-items: center;
-  justify-content: space-around; */
+  align-items: center;
 }
 
 nav ul li {
@@ -43,6 +43,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
+
 }
 
 nav ul li:visited {
