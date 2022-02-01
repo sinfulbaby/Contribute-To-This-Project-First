@@ -32,6 +32,13 @@ nav ul {
   flex-direction: row;
   align-items: center;
 }
+.links{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-end;
+  width: 100%;
+}
 
 nav ul li {
   /* nav-right: 50vh; */
@@ -44,6 +51,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   transition: 300ms;
+  justify-content: flex-end;
 }
 
 nav ul li a:hover{
