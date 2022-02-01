@@ -2,27 +2,43 @@
 If you have never contributed to any repository on GitHub, then contribute here in just simple steps.
 
 ## 👨‍💻 Contributing
-- Click on the green `Code` button, then either the HTTPS or SSH option and, click the icon to copy the URL. Now you have a copy of the project. Thus, you can play around with it locally on your computer.
 
-- Run the following commands into a terminal window (Command Prompt, Powershell, Terminal, Bash, ZSH). Do this to download the forked copy of this repository to your computer.
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Susmita-Dey/Contribute-To-This-Project-First/pulls)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
+- Take a look at the existing [Issues](https://github.com/Susmita-Dey/Contribute-To-This-Project-First/issues) or [create a new issue](https://github.com/Susmita-Dey/Contribute-To-This-Project-First/issues/new/choose)!
+
+- [Fork the Repo](https://github.com/Susmita-Dey/Contribute-To-This-Project-First/fork), create a branch for any issue that you are working on and commit your work.
+
+- Create a **[Pull Request](https://github.com/Susmita-Dey/Contribute-To-This-Project-First/compare)** (_PR_), which will be promptly reviewed and given suggestions for improvements by the community.
+
+- Add screenshots or screen captures to your Pull Request to help us understand the effects of the changes that are included in your commits.
+
+## ⭐ HOW TO MAKE A PULL REQUEST:
+
+**1.** Start by making a fork the [**Contribute-To-This-Project-First**](https://github.com/Susmita-Dey/Contribute-To-This-Project-First) repository. Click on the <a href="https://github.com/Susmita-Dey/Contribute-To-This-Project-First/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a> symbol at the top right corner.
+
+**2.** Click on the green `Code` button on your forked Repository, then either the HTTPS or SSH option and, click the icon to copy the URL. Now you have a copy of the project. Thus, you can play around with it locally on your computer.
+
+**3.** Run the following commands into a terminal window (Command Prompt, Powershell, Terminal, Bash, ZSH). Do this to download the forked copy of this repository to your computer.
 
 ```bash
   git clone https://github.com/YOUR_GITHUB_USERNAME/Contribute-To-This-Project-First.git
 ```
 
-- Switch to the cloned folder. You can paste this command into the same terminal window.
+**4.** Switch to the cloned folder. You can paste this command into the same terminal window.
 
 ```bash
   cd Contribute-To-This-Project-First
 ```
 
-- Make a new branch. Your username would make a good branch because it's unique.
+**5.** Make a new branch. Your username would make a good branch because it's unique.
 
 ```bash
   git checkout -b <name-of-new-branch>
 ```
 
-Create a file named `your-username.yml` in the directory `public/data`.
+**6.** Create a file named `your-username.yml` in the directory `public/data`.
 Your brand new file should look something similar to this one:
 
 ```yml
@@ -33,32 +49,32 @@ pythons
 - perl$
 - pascal$
 ```
-- Stage your changes.
+**7.** Stage your changes.
 
 ```bash
   git add .
 ```
 
-- Commit the changes.
+**8.** Commit the changes.
 
 ```bash
   git commit -m "Add <your-github-username>"
 ```
 
-- Check the status of your repository.
+**9.** Check the status of your repository.
 
 ```bash
   git status
 ```
 
-- The response should be like this:
+**10.** The response should be like this:
 
 ```bash
 On branch <name-of-your-branch>
 nothing to commit, working tree clean
 ```
 
-- Pushing your repository to GitHub.
+**11.** Pushing your repository to GitHub.
 
 ```bash
   git push origin <name-of-your-branch>
