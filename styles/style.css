@@ -6,9 +6,10 @@
   box-sizing: border-box;
 }
 
-body, html{
+body,
+html {
   height: 100%;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
 }
 
@@ -17,11 +18,12 @@ nav {
   color: rgb(27, 120, 201);
   font-size: large;
   font-weight: bold;
+  height: auto;
 }
 
 nav img {
   width: 18vmin;
-  height: 18vmin;
+  height: auto;
 }
 
 nav ul {
@@ -35,15 +37,19 @@ nav ul li {
   /* nav-right: 50vh; */
   padding: 0.1rem 1rem;
   list-style: none;
-  text-decoration:none;
+  text-decoration: none;
   cursor: pointer;
+}
+
+nav ul li a {
+  text-decoration: none;
 }
 
 nav ul li:visited {
   text-decoration: none;
 }
 
-.Main-container{
+.Main-container {
   width: 100%;
   margin: 0 auto;
 }
