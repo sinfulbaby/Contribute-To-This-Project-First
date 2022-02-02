@@ -66,12 +66,16 @@ Your brand new file should look something similar to this one:
 
 ```yml
 name: Martin Developers
-job: Developers
-skills:$
-pythons
-- perl$
-- pascal$
+bio: Software Developer
+skills:
+- python
+- perl
+- pascal
+location: India
+interest: Web Development
 ```
+For clarity, see this [file](https://github.com/Susmita-Dey/Contribute-To-This-Project-First/blob/main/public/data/names.yml)
+
 **9.** Stage your changes.
 
 ```bash
