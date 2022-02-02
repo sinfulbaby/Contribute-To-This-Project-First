@@ -6,9 +6,10 @@
   box-sizing: border-box;
 }
 
-body, html{
+body,
+html {
   height: 100%;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
 }
 
@@ -16,34 +17,54 @@ nav {
   background-color: yellow;
   color: rgb(27, 120, 201);
   font-size: large;
-  font-weight: bold;
+  font-weight: 550;
+  height: auto;
 }
 
-nav img {
-  width: 18vmin;
-  height: 18vmin;
+nav li img {
+  width: 10vmin;
+  height: 10vmin;
+  border-radius: 50%;
 }
 
 nav ul {
   display: flex;
   flex-direction: row;
-  /* align-items: center;
-  justify-content: space-around; */
+  align-items: center;
+}
+.links{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-end;
+  width: 90%;
 }
 
 nav ul li {
   /* nav-right: 50vh; */
   padding: 0.1rem 1rem;
   list-style: none;
-  text-decoration:none;
+  text-decoration: none;
   cursor: pointer;
 }
 
+nav ul li a {
+  text-decoration: none;
+  transition: 300ms;
+  justify-content: flex-end;
+}
+
+nav ul li a:hover{
+  font-size: 1.3rem;
+  font-weight: 700;
+  transition: 300ms; 
+  color: #ff0000;
+}
 nav ul li:visited {
   text-decoration: none;
 }
 
-.Main-container{
+.Main-container {
   width: 100%;
   margin: 0 auto;
 }
