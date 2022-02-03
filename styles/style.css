@@ -51,7 +51,14 @@ nav img {
 nav p{
   padding: 10px;
   margin-top: 10px;
+  /* font-weight: 550;
+  height: auto; */
 }
+
+/* nav li img {
+  width: 10vmin;
+  height: 10vmin;
+  border-radius: 50%; */
 
 nav button{
   text-decoration: none;
