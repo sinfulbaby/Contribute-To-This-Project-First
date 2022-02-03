@@ -6,9 +6,10 @@
   box-sizing: border-box;
 }
 
-body, html{
+body,
+html {
   height: 100%;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   background-color: rgb(150, 150, 150);
 }
@@ -22,38 +23,18 @@ nav {
   grid-template-columns: 50% 50%;
 }
 
-/* nav a {
-  margin-top: 10px;
-  color: rgb(62, 151, 230);
-  text-decoration: none;
-  padding: 10px;
-  border: 3px solid rgb(240, 240, 240);
-  background-color: rgb(142, 248, 100);
-  border-radius: 20px;
-  
-}
-
-nav a:visited {
-  color: rgb(0, 72, 134);
-}
-
-nav a:hover {
-  color: rgb(0, 0, 0);
-  border: 3px solid rgb(142, 248, 100);
-  background-color:  rgb(240, 240, 240);
-} */
 nav img {
   width: 18vmin;
   height: 18vmin;
   padding: 10px;
+  border-radius: 50%;
 } 
 
 nav p{
   padding: 10px;
-  margin-top: 10px;
-  /* font-weight: 550;
-  height: auto; */
+  margin-top: 10px
 }
+
 
 /* nav li img {
   width: 10vmin;
@@ -84,27 +65,9 @@ nav button:hover{
   cursor: pointer;
   border-bottom: solid 2px slateblue;
 }
-/* nav ul {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-}
 
-nav ul li {
-  nav-right: 50vh;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 0.1rem 1rem;
-  list-style: none;
-  text-decoration:none;
-}
 
-nav ul li:visited {
-  text-decoration: none;
-} */
-
-.Main-container{
+.Main-container {
   width: 100%;
   margin: 0 auto;
 }

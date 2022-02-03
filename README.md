@@ -1,5 +1,6 @@
 # Contribute-To-This-Project-First
 If you have never contributed to any repository on GitHub, then contribute here in just simple steps.
+Try it will be Fun!!
 
 ## 👨‍💻 Contributing
 
@@ -26,16 +27,16 @@ If you have never contributed to any repository on GitHub, then contribute here 
   git clone https://github.com/YOUR_GITHUB_USERNAME/Contribute-To-This-Project-First.git
 ```
 
-**4.** Set upstream command:
-
-```bash
-git remote add upstream https://github.com/Susmita-Dey/Google-Homepage-Clone-With-HTML-CSS.git
-```
-
-**5.** Switch to the cloned folder. You can paste this command into the same terminal window.
+**4.** Switch to the cloned folder. You can paste this command into the same terminal window.
 
 ```bash
   cd Contribute-To-This-Project-First
+```
+
+**5.** Set upstream command:
+
+```bash
+git remote add upstream https://github.com/Susmita-Dey/Google-Homepage-Clone-With-HTML-CSS.git
 ```
 
 **6.** Make a new branch. Your username would make a good branch because it's unique.
@@ -66,12 +67,16 @@ Your brand new file should look something similar to this one:
 
 ```yml
 name: Martin Developers
-job: Developers
-skills:$
-pythons
-- perl$
-- pascal$
+bio: Software Developer
+skills:
+- python
+- perl
+- pascal
+location: India
+interest: Web Development
 ```
+For clarity, see this [file](https://github.com/Susmita-Dey/Contribute-To-This-Project-First/blob/main/public/data/names.yml)
+
 **9.** Stage your changes.
 
 ```bash
