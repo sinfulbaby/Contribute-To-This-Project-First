@@ -61,9 +61,9 @@ nav button{
 
 nav button:hover{
   background-color: rgb(228, 62, 250);
-  color: black;
+  color: rgb(99, 252, 85);
   cursor: pointer;
-  border-bottom: solid 2px slateblue;
+  border-bottom: solid 2px rgb(99, 252, 85);
 }
 
 
