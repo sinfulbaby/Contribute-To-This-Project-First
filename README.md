@@ -2,6 +2,10 @@
 If you have never contributed to any repository on GitHub, then contribute here in just simple steps.
 Try it will be Fun!!
 
+## Setup Git
+- git config --global user.name "John_Doe"
+- git config --global user.email "john@example.com"
+
 ## 👨‍💻 Contributing
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Susmita-Dey/Contribute-To-This-Project-First/pulls)
