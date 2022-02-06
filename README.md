@@ -2,7 +2,7 @@
 If you have never contributed to any repository on GitHub, then contribute here in just simple steps.
 Try it will be Fun!!
 
-## Setup Git
+## Setup Git If You've Never Used Git Before
 - git config --global user.name "John_Doe"
 - git config --global user.email "john@example.com"
 
