@@ -1,4 +1,6 @@
 # Contribute-To-This-Project-First
+Want to get started with open source? Don't worry we have got you covered. 
+Contribute to this repository to begin your open source journey from this Repository.
 If you have never contributed to any repository on GitHub, then contribute here in just simple steps.
 Try it will be Fun!!
 
