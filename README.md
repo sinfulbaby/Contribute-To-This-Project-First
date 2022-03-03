@@ -132,7 +132,7 @@ Alternatively, skip all the steps above by using [![Gitpod Ready-to-Code](https:
 
 ## 🛡️ License
 
-LinkFree is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
+Contribute-To-This-Project is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
 
 ## Connect with me
   <a href="https://twitter.com/its_SusmitaDey">
